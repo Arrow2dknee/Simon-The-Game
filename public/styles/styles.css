@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background-color: #384259;
+}
+
+/* ******************************************
+*   Header Styles
+********************************************** */
+
+.header {
+    margin: 40px 0;
+    width: 100%;
+    font-size: 1em;
+    color: #f73859;
+}
+
+/* ******************************************
+*   Playground Styles
+********************************************** */
+
+.player-container {
+    width: 60%;
+    margin: 40px auto;
+}
+
+.tiles {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+    border: 5px solid #7ac7c4;
+    border-radius: 50px;
+}
+
+.first-tile div:first-child {
+    background-color: green;
+    display: inline-block;
+}
+
+.first-tile div:last-child {
+    background-color: red;
+    display: inline-block;
+}
+
+.second-tile div:first-child {
+    background-color: gold;
+    display: inline-block;
+}
+
+.second-tile div:last-child {
+    background-color: blue;
+    display: inline-block;
+}
+
+/* ******************************************
+*   Footer Styles
+********************************************** */
+
+footer {
+    font-size: 0.5em;
+    color: #c4edde;
+}
+
+/* ******************************************
+*   Animation
+********************************************** */
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
