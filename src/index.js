@@ -1,6 +1,7 @@
 alert(
-  "Rules of the game:\n1. Follow the displayed pattern of colors\n2. You lose the game if you miss the pattern\nEnjoy! See how far you can get!"
+  "Rules of the game:\n1. Follow the displayed pattern of colors\n2. Now reproduce the sequence in the same order\n3. You lose the game if you miss the sequence\n4. Click any key to begin\nEnjoy! See how far you can get!"
 );
+
 const buttonColors = ["red", "blue", "green", "yellow"];
 let gamePattern = [];
 let userClickedPattern = [];
